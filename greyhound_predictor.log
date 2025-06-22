@@ -876,3 +876,59 @@
 2025-06-22 13:16:46,200 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=-0.13, varsta=0.20, sex=0.10, box_pozitie=0.03, grad=0.80, recency=0.00, remark=-0.06, curba=0.07
 2025-06-22 13:16:46,201 [WARNING] Ajustare totală foarte mare (1.05s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
 2025-06-22 13:16:46,201 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.14, varsta=0.00, sex=0.10, box_pozitie=-0.01, grad=0.80, recency=0.00, remark=-0.04, curba=0.07
+2025-06-22 13:32:47,462 [WARNING] Ajustare totală foarte mare (1.01s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:32:47,463 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=-0.13, varsta=0.20, sex=0.10, box_pozitie=0.03, grad=0.80, recency=0.00, remark=-0.06, curba=0.07
+2025-06-22 13:32:47,463 [WARNING] Ajustare totală foarte mare (1.05s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:32:47,464 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.14, varsta=0.00, sex=0.10, box_pozitie=-0.01, grad=0.80, recency=0.00, remark=-0.04, curba=0.07
+2025-06-22 13:34:55,846 [WARNING] Ajustare totală foarte mare (1.01s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:34:55,847 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=-0.13, varsta=0.20, sex=0.10, box_pozitie=0.03, grad=0.80, recency=0.00, remark=-0.06, curba=0.07
+2025-06-22 13:34:55,847 [WARNING] Ajustare totală foarte mare (1.05s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:34:55,847 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.14, varsta=0.00, sex=0.10, box_pozitie=-0.01, grad=0.80, recency=0.00, remark=-0.04, curba=0.07
+2025-06-22 13:46:25,469 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 13:46:25,469 [WARNING] Ajustare totală foarte mare (1.30s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:46:25,470 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.00, varsta=0.00, sex=0.00, box_pozitie=0.00, grad=0.80, recency=0.50, remark=0.00, curba=0.00
+2025-06-22 13:46:25,470 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 13:46:25,470 [WARNING] Ajustare totală foarte mare (1.30s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:46:25,470 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.00, varsta=0.00, sex=0.00, box_pozitie=0.00, grad=0.80, recency=0.50, remark=0.00, curba=0.00
+2025-06-22 13:46:25,470 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 13:46:25,471 [WARNING] Ajustare totală foarte mare (1.30s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:46:25,471 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.00, varsta=0.00, sex=0.00, box_pozitie=0.00, grad=0.80, recency=0.50, remark=0.00, curba=0.00
+2025-06-22 13:46:25,471 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 13:46:25,471 [WARNING] Ajustare totală foarte mare (1.30s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:46:25,472 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.00, varsta=0.00, sex=0.00, box_pozitie=0.00, grad=0.80, recency=0.50, remark=0.00, curba=0.00
+2025-06-22 13:46:25,472 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 13:46:25,472 [WARNING] Ajustare totală foarte mare (1.30s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:46:25,472 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.00, varsta=0.00, sex=0.00, box_pozitie=0.00, grad=0.80, recency=0.50, remark=0.00, curba=0.00
+2025-06-22 13:46:25,472 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 13:46:25,472 [WARNING] Ajustare totală foarte mare (1.30s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 13:46:25,473 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.00, varsta=0.00, sex=0.00, box_pozitie=0.00, grad=0.80, recency=0.50, remark=0.00, curba=0.00
+2025-06-22 14:03:58,321 [WARNING] Ajustare totală foarte mare (1.03s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 14:03:58,322 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.26, varsta=0.20, sex=0.00, box_pozitie=-0.01, grad=0.60, recency=0.00, remark=0.06, curba=-0.07
+2025-06-22 14:19:34,549 [WARNING] Sex lipsă pentru ogarul Snooty Biscuits. Folosesc ajustarea default.
+2025-06-22 14:19:34,549 [WARNING] Recency status lipsă pentru ogarul Snooty Biscuits. Folosesc ajustarea default.
+2025-06-22 14:19:34,550 [WARNING] Sex lipsă pentru ogarul Pyrus. Folosesc ajustarea default.
+2025-06-22 14:19:34,550 [WARNING] Recency status lipsă pentru ogarul Pyrus. Folosesc ajustarea default.
+2025-06-22 14:19:34,550 [WARNING] Sex lipsă pentru ogarul Bombay Boss. Folosesc ajustarea default.
+2025-06-22 14:19:34,550 [WARNING] Recency status lipsă pentru ogarul Bombay Boss. Folosesc ajustarea default.
+2025-06-22 14:19:34,551 [WARNING] Sex lipsă pentru ogarul Swift Airy. Folosesc ajustarea default.
+2025-06-22 14:19:34,551 [WARNING] Recency status lipsă pentru ogarul Swift Airy. Folosesc ajustarea default.
+2025-06-22 14:19:34,551 [WARNING] Sex lipsă pentru ogarul Hellofawhatever. Folosesc ajustarea default.
+2025-06-22 14:19:34,551 [WARNING] Recency status lipsă pentru ogarul Hellofawhatever. Folosesc ajustarea default.
+2025-06-22 14:19:34,551 [WARNING] Sex lipsă pentru ogarul Bluejig Designer. Folosesc ajustarea default.
+2025-06-22 14:19:34,552 [WARNING] Recency status lipsă pentru ogarul Bluejig Designer. Folosesc ajustarea default.
+2025-06-22 14:23:24,946 [WARNING] Ajustare totală foarte mare (1.03s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 14:23:24,946 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.26, varsta=0.20, sex=0.00, box_pozitie=-0.01, grad=0.60, recency=0.00, remark=0.06, curba=-0.07
+2025-06-22 19:03:43,192 [WARNING] Ajustare totală foarte mare (1.03s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 19:03:43,193 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.26, varsta=0.20, sex=0.00, box_pozitie=-0.01, grad=0.60, recency=0.00, remark=0.06, curba=-0.07
+2025-06-22 19:21:37,612 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 19:21:37,612 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 19:21:37,612 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 19:21:37,612 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 19:21:37,613 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 19:21:37,613 [WARNING] Sex lipsă pentru ogarul <FĂRĂ NUME>. Folosesc ajustarea default.
+2025-06-22 19:22:05,588 [WARNING] Ajustare totală foarte mare (1.04s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 19:22:05,588 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.04, varsta=0.20, sex=0.10, box_pozitie=0.03, grad=0.50, recency=0.00, remark=0.10, curba=0.07
+2025-06-22 19:23:54,118 [WARNING] Ajustare totală foarte mare (1.04s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 19:23:54,118 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.04, varsta=0.20, sex=0.10, box_pozitie=0.03, grad=0.50, recency=0.00, remark=0.10, curba=0.07
+2025-06-22 19:36:24,246 [WARNING] Ajustare totală foarte mare (1.04s) pentru ogarul <FĂRĂ NUME>! Verifică datele istorice.
+2025-06-22 19:36:24,246 [WARNING] Detaliu ajustări pentru <FĂRĂ NUME>: box_specific=0.01, varsta=0.20, sex=0.10, box_pozitie=0.01, grad=0.10, recency=0.50, remark=0.05, curba=0.07

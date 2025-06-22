@@ -26,6 +26,7 @@ CSV_PER_ARENA = {
     'Harlow': 'Harlow.csv',
     'Monmore': 'Monmore.csv',
     'Sheffield': 'Sheffield.csv',
+    'Yarmouth': 'Yarmouth.csv',
     # Adăugați aici alte arene și fișierele aferente dacă e cazul
 }
 
@@ -39,6 +40,7 @@ TRACK_NAME_MAP_GUI_TO_CSV = {
     'Harlow': 'Har',
     'Monmore': 'Monmr',
     'Sheffield': 'Sheff',
+    'Yarmouth': 'Yrmth',
     # Adăugați aici alte piste din GUI și abrevierile lor din CSV
 }
 
@@ -75,6 +77,9 @@ DISTANTE_PUNCTE_SIMULARE = {
     },
     'Monmr': { # Monmore
         480: [80, 240, 320, 400],
+    },
+    'Yrmth': { # Monmore
+        462: [35, 150, 300, 400],
     },
     # Adăugați aici alte piste/distanțe dacă apar
 }

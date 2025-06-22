@@ -1,9 +1,9 @@
 {
-    "csv_file_path": "Monmore.csv",
-    "pista_gui": "Monmore",
-    "distanta_m_gui": 480,
-    "grad_cursa_gui": "A9",
-    "data_cursa_gui": "21/06/2025",
+    "csv_file_path": "Yarmouth.csv",
+    "pista_gui": "Yarmouth",
+    "distanta_m_gui": 462,
+    "grad_cursa_gui": "A2",
+    "data_cursa_gui": "22/06/2025",
     "weight_best_timp": 0.25,
     "weight_avg_timp": 0.45,
     "weight_avg_trap": 0.3
