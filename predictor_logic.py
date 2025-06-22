@@ -9,6 +9,16 @@ from datetime import datetime, timedelta
 from statistics import mean
 import logging
 
+# --- Funcție pentru normalizare nume ogar (spații, diacritice, majuscule/minuscule) ---
+import unicodedata
+def normalize_name(name):
+    if not name or not isinstance(name, str):
+        return ''
+    name = name.strip().lower()
+    name = unicodedata.normalize('NFD', name)
+    name = ''.join(ch for ch in name if unicodedata.category(ch) != 'Mn')
+    return name
+
 # Inițializează logging simplu (în fișier și în consolă)
 logging.basicConfig(
     level=logging.WARNING,
@@ -87,6 +97,13 @@ def proceseaza_rand_istoric(rand, nume_coloane, mapare_intern_csv):
             rand_procesat[nume_intern] = valoare.strip() if isinstance(valoare, str) else valoare
         else:
             rand_procesat[nume_intern] = None
+
+        # Adăugăm și numele normalizat pentru potriviri robuste
+        nume_ogar = rand_procesat.get('Nume Ogar')
+        if nume_ogar:
+            rand_procesat['Nume Ogar Normalizat'] = normalize_name(nume_ogar)
+        else:
+            rand_procesat['Nume Ogar Normalizat'] = ''
 
     # Conversie distanță la întreg
     valoare_distanta = rand_procesat.get('Distanta Cursei (m)')
@@ -710,10 +727,11 @@ def prezice_cursa_combinata(fisier_path, detalii_cursa, greutati_timp_final_over
     predictie_rezultate = []
 
     for ogar_participanti_noua_cursa, box_nou in detalii_cursa['ogari_participanti']:
-        istoric_ogas_curent = [
-            r for r in istoric_complet
-            if r.get('Nume Ogar') == ogar_participanti_noua_cursa
-        ]
+            nume_ogar_nou_normalizat = normalize_name(ogar_participanti_noua_cursa)
+            istoric_ogas_curent = [
+                r for r in istoric_complet
+                if r.get('Nume Ogar Normalizat', '') == nume_ogar_nou_normalizat
+            ]
 
         indicatori_ogar = calculeaza_indicatori_ogar(
             istoric_ogas_curent,
@@ -928,11 +946,14 @@ def test_ponderi_sistematizat(csv_path, detalii_cursa_base):
         test_participant_names = {name for name, box in detalii_cursa_base['ogari_participanti']}
 
         for row in istoric_complet_initial_check:
-            if row.get('Nume Ogar') in test_participant_names and \
-               row.get('Pista') == pista_test and \
-               row.get('Distanta Cursei (m)') == distanta_test:
-                found_test_participants_with_relevant_history = True
-                break
+        # Folosește potrivire normalizată!
+        if (
+        +   normalize_name(row.get('Nume Ogar', '')) in {normalize_name(n) for n in test_participant_names} and
+        +   row.get('Pista') == pista_test and
+        +   row.get('Distanta Cursei (m)') == distanta_test
+        +   ):
+        +       found_test_participants_with_relevant_history = True
+        +   break   
 
     if not found_test_participants_with_relevant_history:
         print("\nNu s-au gasit date istorice RELEVANTE (Pista+Distanta) pentru niciun ogar din cursa de testare. Testarea ponderilor nu poate continua.")
